@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+	background: #27BFD2;
+	padding: 10px 0;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+span.message {
+	color: #ffffff;
+	font-size: 14px;
+	padding: 16px 20px;
+	margin-bottom: 10px;
+	width: 100%;
+	float: left;
+}
+.message.error {
+	background: #f64b2f;
+}
+.message.info {
+	background: #2fa9f6;
+}
+.message.success {
+	background: #7eb62e;
+}
+.message.notice {
+	background: #f6ca2f;
+}
+.message.download {
+	background: #a555ca;
+}
+
+
+
+/* --- base960 v1.0 grid system --- */
+
+.container									{ margin: 0 auto; width: 960px; position: relative; }
+.container .column,
+.container .columns							{ margin: 0 10px 10px; display: inline; float: left; }
+.row										{ margin-bottom: 20px; width: 100%; float: left }
+
+/* Box sizing - padding instead of margin */
+.container .column.box-sizing,
+.container .columns.box-sizing				{ padding: 0 10px; margin: 0; box-sizing: border-box; }
+
+/* Base Grid */
+.container .one.column,
+.container .one.columns						{ width: 60px; }
+.container .two.columns						{ width: 140px; }
+.container .three.columns					{ width: 220px; }
+.container .four.columns					{ width: 300px; }
+.container .five.columns					{ width: 380px; }
+.container .six.columns						{ width: 460px; }
+.container .seven.columns					{ width: 540px; }
+.container .eight.columns					{ width: 620px; }
+.container .nine.columns					{ width: 700px; }
+.container .ten.columns						{ width: 780px; }
+.container .eleven.columns					{ width: 860px; }
+.container .twelve.columns					{ width: 940px; }
+
+/* Offsets */
+.container .offset-by-one					{ padding-left: 80px;  }
+.container .offset-by-two					{ padding-left: 160px; }
+.container .offset-by-three					{ padding-left: 240px; }
+.container .offset-by-four					{ padding-left: 320px; }
+.container .offset-by-five					{ padding-left: 400px; }
+.container .offset-by-six					{ padding-left: 480px; }
+.container .offset-by-seven					{ padding-left: 560px; }
+.container .offset-by-eight					{ padding-left: 640px; }
+.container .offset-by-nine					{ padding-left: 720px; }
+.container .offset-by-ten					{ padding-left: 800px; }
+.container .offset-by-eleven				{ padding-left: 880px; }
+
+
+/* Debugging tools */
+
+.test {
+	background: #aeeeee;
+}
+.test2 {
+	background: #eaaaaa;
+}
