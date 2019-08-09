@@ -1,3 +1,0 @@
-* Popravi relativePath() funkciju u engine/core/
-* Dodaj samo www u .htaccess
-* Dodaj / na kraju url-a
